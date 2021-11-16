@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+     font-family: "Courier New", Courier, monospace;
+}
+.h {
+    text-align: left;
+}
+.container {
+    width: 350px;
+    margin: auto;
+    background-color: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ff1b1b;
+}
+
+pre
+{
+    text-align: center;
+    font-size: 12pt;
+}
+span {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12pt;
+}
+#title
+{
+    width: 550px;
+    margin:auto;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 14pt;
+}
+#hangman {
+    width: 95%;
+    height: auto;
+    margin: 30px auto;
+    border: none;
+
+}
+#used
+{
+    display: block;
+}
+.top-display {
+    border: none;
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.displayed-word {
+    font-size: 1.5em;
+    margin: 25px 5px 25px 5px;
+}
+
+.lives-left {
+    margin: 25px 0px;
+}
+
+.message {
+    margin: 25px 0px;
+}
+
+.buttons-section {
+    border: none;
+    width: 90%;
+    margin: 15px auto;
+}
+
+button {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: monospace;
+    text-transform: uppercase;
+    background-color: white;
+}
+
+
+button:focus {
+    outline: none;
+}
+
+button.deactivated {
+    color: #dddddd;
+    cursor: auto;
+    border: 1px solid #000000;
+}
+
+#new-game-button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 120px;
+    height: 40px;
+    font-size: 14pt;
+    font-family: "Courier New", Courier, monospace;
+    border: 1px solid #000000;
+}
+
+.letter-button {
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin: 4px;
+    font-size: 14pt;
+    font-family: "Courier New", Courier, monospace; 
+}
